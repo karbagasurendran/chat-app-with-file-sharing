@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of my chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "surain",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.10.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "createerror": "^1.3.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "socket.io-file": "^2.0.31"
+  },
+  "engines": {
+    "node": "14.15.0"
+  }
+}
